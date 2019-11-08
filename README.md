@@ -2,7 +2,18 @@
 
 This example gets you started using gRPC using .Net Core for the server and Go for the client.
 
-## Setup
+## PREREQUISITES
+
+### Install Go and set GOPATH
+
+- This requires Go 1.9 or later
+- Requires that [GOPATH is set](https://golang.org/doc/code.html#GOPATH)
+
+```sh
+$ go help gopath
+$ # ensure the PATH contains $GOPATH/bin
+$ export PATH=$PATH:$GOPATH/bin
+```
 
 ### Install protobuf
 
